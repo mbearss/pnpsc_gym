@@ -5,8 +5,8 @@ This repository contains code developed as part of my dissertation on reinforcem
 ## Repository Structure
 
 - **nets/**: Contains JSON files defining PNPSC nets. These files describe the structure and properties of the nets used in the environment. 
-- **agents/**: Contains several example agents that can be used within the gym environment. These agents demonstrate various approaches to solving tasks in the environment.
-- **wrappers/**: Contains wrappers designed to manipulate the gym environment for easier agent development. These wrappers help simplify interactions with the environment, making it more convenient to implement and test new agents.
+- **src/pnpsc_env/agents/**: Contains several example agents that can be used within the gym environment. These agents demonstrate various approaches to solving tasks in the environment.
+- **src/pnpsc_env/env/wrappers**: Contains wrappers designed to manipulate the gym environment for easier agent development. These wrappers help simplify interactions with the environment, making it more convenient to implement and test new agents.
 
 ## Installation
 
