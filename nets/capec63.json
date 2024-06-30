@@ -1,0 +1,1212 @@
+{
+    "places": [
+        {
+            "marking": 0,
+            "name": "dP4",
+            "player_observable": "",
+            "description": "Goal phase failed",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "bP4",
+            "player_observable": "",
+            "description": "Use of injected script in parameters flag"
+        },
+        {
+            "marking": 0,
+            "name": "dP5",
+            "player_observable": "",
+            "description": "Gain privileges flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP5",
+            "player_observable": "",
+            "description": "Potential entry points for XSS vulnerability is identified"
+        },
+        {
+            "marking": 0,
+            "name": "dP6",
+            "player_observable": "",
+            "description": "Goal decided"
+        },
+        {
+            "marking": 0,
+            "name": "bP6",
+            "player_observable": "",
+            "description": "Proxy tool to record results occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP7",
+            "player_observable": "",
+            "description": "Attacker/Defender strategies"
+        },
+        {
+            "marking": 0,
+            "name": "bP7",
+            "player_observable": "Attacker",
+            "description": "Proxy tool to record results occurring successful"
+        },
+        {
+            "marking": 0,
+            "name": "dP8",
+            "player_observable": "",
+            "description": "Goal successful",
+            "goal": "Attacker"
+        },
+        {
+            "marking": 0,
+            "name": "bP8",
+            "player_observable": "",
+            "description": "Proxy tool to record results occurring flag"
+        },
+        {
+            "marking": 0,
+            "name": "dP9",
+            "player_observable": "Defender",
+            "description": "Defense has knowledge of system attack"
+        },
+        {
+            "marking": 0,
+            "name": "bP9",
+            "player_observable": "",
+            "description": "Injection script into UI entry fields occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP10",
+            "player_observable": "",
+            "description": "Attacker’s goal blocked",
+            "goal": "Defender"
+        },
+        {
+            "marking": 0,
+            "name": "bP10",
+            "player_observable": "Attacker",
+            "description": "XSS probe string to inject script into UI entry fields successful"
+        },
+        {
+            "marking": 0,
+            "name": "dP11",
+            "player_observable": "",
+            "description": "Modify application data flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP11",
+            "player_observable": "",
+            "description": "XSS probe string to inject script into UI entry fields flag"
+        },
+        {
+            "marking": 0,
+            "name": "dP12",
+            "player_observable": "",
+            "description": "Execute unauthorized code flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP12",
+            "player_observable": "",
+            "description": "Injection script into resources occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP13",
+            "player_observable": "Attacker",
+            "description": "XSS probe string to inject script into resources successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP14",
+            "player_observable": "",
+            "description": "XSS probe string to inject script into resources flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP15",
+            "player_observable": "",
+            "description": "Experiment phase attack failed",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "bP16",
+            "player_observable": "Defender",
+            "description": "Defender detected use a list of XSS probe strings to inject script in parameters of known URLs occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP17",
+            "player_observable": "Defender",
+            "description": "Defender detected use a proxy tool to record results of manual input of XSS probes occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP18",
+            "player_observable": "Defender",
+            "description": "Defender detected use a list of XSS probe strings to inject script into UI entry fields occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP19",
+            "player_observable": "Defender",
+            "description": "Defender detected use a list of XSS probe strings to inject script into resources accessed by the application occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Exploit phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP3",
+            "player_observable": "None",
+            "description": "Spidering website occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP2",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts and send info occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP3",
+            "player_observable": "Attacker",
+            "description": "Load victim’s browser with scripts and send info successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP4",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts and send info flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP2",
+            "player_observable": "Attacker",
+            "description": "Explore Phase of the Attack Occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP5",
+            "player_observable": "",
+            "description": "Exploit phase successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP6",
+            "player_observable": "",
+            "description": "Browser takes command occurring"
+        },
+        {
+            "marking": 1,
+            "name": "aP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Target client software must be a client that allows scripting communication from remote hosts"
+        },
+        {
+            "marking": 0,
+            "name": "cP7",
+            "player_observable": "Attacker",
+            "description": "Browser takes command successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP8",
+            "player_observable": "",
+            "description": "Browser takes command flag"
+        },
+        {
+            "marking": 0,
+            "name": "cP9",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts to perform actions occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP4",
+            "player_observable": "Attacker",
+            "description": "Spidering successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP10",
+            "player_observable": "Attacker",
+            "description": "Load victim’s browser with scripts to perform actions successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP11",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts to perform actions flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP5",
+            "player_observable": "None",
+            "description": "Spidering websites failed"
+        },
+        {
+            "marking": 0,
+            "name": "cP12",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts to execute requests to other websites occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP3",
+            "player_observable": "Attacker",
+            "description": "Use of injected script in parameters successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP13",
+            "player_observable": "Attacker",
+            "description": "Load victim’s browser with scripts to execute requests to other websites successful"
+        },
+        {
+            "marking": 0,
+            "name": "aP6",
+            "player_observable": "None",
+            "description": "The use of proxy tool occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP14",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts to execute requests to other websites flag\n"
+        },
+        {
+            "marking": 0,
+            "name": "aP7",
+            "player_observable": "Attacker",
+            "description": "Proxy tool successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP15",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts to expose invalid info to the user occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP8",
+            "player_observable": "None",
+            "description": "Use of proxy tool failed"
+        },
+        {
+            "marking": 0,
+            "name": "cP16",
+            "player_observable": "Attacker",
+            "description": "Load victim’s browser with scripts to expose invalid info to the user successful"
+        },
+        {
+            "marking": 0,
+            "name": "aP9",
+            "player_observable": "None",
+            "description": "Use of browser attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP17",
+            "player_observable": "",
+            "description": "Load victim’s browser with scripts to expose invalid info to the user flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP10",
+            "player_observable": "Attacker",
+            "description": "Use of browser successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP18",
+            "player_observable": "",
+            "description": "Exploit phase attack failed",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "aP11",
+            "player_observable": "Attacker",
+            "description": "Use of browser attack is failed"
+        },
+        {
+            "marking": 0,
+            "name": "cP19",
+            "player_observable": "",
+            "description": "Defender detected attempt to develop malicious JavaScript that is loaded by the victim’s browser and sends document information to the attacker occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP12",
+            "player_observable": "None",
+            "description": "Explore phase attack failed",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "cP20",
+            "player_observable": "Defender",
+            "description": "Defender detected attempt to develop malicious JavaScript that takes commands from an attacker’s server and then causes the browser to execute appropriately occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP13",
+            "player_observable": "Defender",
+            "description": "Survey application successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP21",
+            "player_observable": "Defender",
+            "description": "Defender detected attempt to develop malicious JavaScript that is loaded by the victim’s browser and performs actions on the same web site occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP14",
+            "player_observable": "Defender",
+            "description": "Defender detected spidering"
+        },
+        {
+            "marking": 0,
+            "name": "cP22",
+            "player_observable": "Defender",
+            "description": "Defender detected attempt to develop malicious JavaScript that takes commands from an attacker’s server and then causes the browser to execute request to other web sites occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP15",
+            "player_observable": "Defender",
+            "description": "Defender detected proxy tool use"
+        },
+        {
+            "marking": 0,
+            "name": "cP23",
+            "player_observable": "Defender",
+            "description": "Defender detected attempt to develop malicious JavaScript that is loaded by the victim’s browser and exposes attacker-modified invalid information to the user on the current web page occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP16",
+            "player_observable": "Defender",
+            "description": "Defender detected browser exploration"
+        },
+        {
+            "marking": 0,
+            "name": "dP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Goal phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Experiment phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP2",
+            "player_observable": "",
+            "description": "Read application data flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP2",
+            "player_observable": "",
+            "description": "Use of injected script in parameters occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP3",
+            "player_observable": "",
+            "description": "Failed attack"
+        }
+    ],
+    "players": [
+        {
+         "name" : "Attacker",
+          "cost" : 0
+        },
+        {
+          "name" : "Defender",
+          "cost" : 0
+        }
+        ],
+    "transitions": [
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP1",
+            "name": "aT1",
+            "output": "aP2",
+            "player_control": "None",
+            "rate": 4,
+            "description": "Attacker surveys the application for user-controllable inputs"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "aP5",
+            "input": "aP2",
+            "name": "aT2",
+            "output": "aP3",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to spider website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP3",
+            "name": "aT3",
+            "output": "aP13,aP4",
+            "player_control": "None",
+            "rate": 7,
+            "description": "Attacker successfully spiders web site"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP3",
+            "name": "aT4",
+            "output": "aP2,aP5",
+            "player_control": "None",
+            "rate": 3,
+            "description": "Attacker fails in spidering website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "aP8",
+            "input": "aP2",
+            "name": "aT5",
+            "output": "aP6",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to use proxy tool to record all links"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP6",
+            "name": "aT6",
+            "output": "aP13,aP7",
+            "player_control": "None",
+            "rate": 8,
+            "description": "Attacker successfully use proxy tool to record links"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP6",
+            "name": "aT7",
+            "output": "aP8,aP2",
+            "player_control": "None",
+            "rate": 2,
+            "description": "Attacker fails to use proxy tool"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "aP11",
+            "input": "aP2",
+            "name": "aT8",
+            "output": "aP9",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to use a browser to manually explore the website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP9",
+            "name": "aT9",
+            "output": "aP13,aP10",
+            "player_control": "None",
+            "rate": 7,
+            "description": "Attacker successfully use a browser to manually explore the website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP9",
+            "name": "aT10",
+            "output": "aP11,aP2",
+            "player_control": "None",
+            "rate": 3,
+            "description": "Attacker fails to use browser attack"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP2",
+            "name": "aT11",
+            "output": "aP12",
+            "player_control": "None",
+            "rate": 8,
+            "description": "Attacker fails in the explore phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP3",
+            "name": "aT12",
+            "output": "aP14,aP3",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detects spidering"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP6",
+            "name": "aT13",
+            "output": "aP15,aP6",
+            "player_control": "Defender",
+            "rate": 4,
+            "description": "Defender detects proxy tool use"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP9",
+            "name": "aT14",
+            "output": "aP9,aP16",
+            "player_control": "Defender",
+            "rate": 4,
+            "description": "Defender detects browser exploration"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP13",
+            "name": "bT1",
+            "output": "bP1",
+            "player_control": "None",
+            "rate": 1,
+            "description": "Attacker moves to experiment phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP4",
+            "input": "bP1",
+            "name": "bT2",
+            "output": "bP2",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attack attempts to use a list of XSS probe strings to inject script in parameters of known URLs"
+        },
+        {
+            "control_rate": "aP4=1,aP7=2,aP10=5",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP2",
+            "name": "bT3",
+            "output": "bP3,bP5",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker successfully injects script via parameters"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP2",
+            "name": "bT4",
+            "output": "bP4,bP1",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to inject script via parameters"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP8",
+            "input": "bP1",
+            "name": "bT5",
+            "output": "bP6",
+            "player_control": "Attacker",
+            "rate": 6,
+            "description": "Attacker attempts to use a proxy tool to record results"
+        },
+        {
+            "control_rate": "aP4=1,aP7=2,aP10=5",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP6",
+            "name": "bT6",
+            "output": "bP7,bP5",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker successfully records results via proxy tool"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP6",
+            "name": "bT7",
+            "output": "bP1,bP8",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails to proxy tool to record results"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP11",
+            "input": "bP1",
+            "name": "bT8",
+            "output": "bP9",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to use probe strings to inject script into UI entry fields"
+        },
+        {
+            "control_rate": "aP4=1,aP7=2,aP10=5",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT9",
+            "output": "bP10,bP5",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker successfully uses injection script into UI entry fields"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT10",
+            "output": "bP1,bP11",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker fails to use injection script into UI entry fields"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP14",
+            "input": "bP1",
+            "name": "bT11",
+            "output": "bP12",
+            "player_control": "Attacker",
+            "rate": 6,
+            "description": "Attacker attempts to use injection script into resources"
+        },
+        {
+            "control_rate": "aP4=1,aP7=2,aP10=5",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP12",
+            "name": "bT12",
+            "output": "bP13,bP5",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker successfully uses injection script into resources"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP12",
+            "name": "bT13",
+            "output": "bP14,bP1",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker fails to use injection script into resources"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP1",
+            "name": "bT14",
+            "output": "bP15",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker fails in the experiment phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP2",
+            "name": "bT15",
+            "output": "bP16,bP2",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detected use a list of XSS probe strings to inject script in parameters of known URLs occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP6",
+            "name": "bT16",
+            "output": "bP17,bP6",
+            "player_control": "Defender",
+            "rate": 5,
+            "description": "Defender detected use a proxy tool to record results of manual input of XSS probes occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT17",
+            "output": "bP9,bP18",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detected use a list of XSS probe strings to inject script into UI entry fields occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP12",
+            "name": "bT18",
+            "output": "bP19,bP12",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detected use a list of XSS probe strings to inject script into resources accessed by the application occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP5",
+            "name": "cT1",
+            "output": "cP1",
+            "player_control": "",
+            "rate": 8,
+            "description": "Attacker moves to exploit phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP5",
+            "input": "cP1",
+            "name": "cT2",
+            "output": "cP2",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to load victim’s browser with malicious scripts and sent to attacker"
+        },
+        {
+            "control_rate": "bP3=5,bP7=1,bP10=6,bP13=1",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP2",
+            "name": "cT3",
+            "output": "cP4,cP3",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker succeeds in loading victim’s browser with scripts and send info"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP2",
+            "name": "cT4",
+            "output": "cP5,cP1",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to load victim’s browser with scripts and send info"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP8",
+            "input": "cP1",
+            "name": "cT5",
+            "output": "cP6",
+            "player_control": "Attacker",
+            "rate": 6,
+            "description": "Attacker attempts to cause browser to take command"
+        },
+        {
+            "control_rate": "bP3=2,bP7=1,bP10=9,bP13=3",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP6",
+            "name": "cT6",
+            "output": "cP7,cP4",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker successfully causes browser to take command"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP6",
+            "name": "cT7",
+            "output": "cP8,cP1",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to cause browser to take command"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP11",
+            "input": "cP1",
+            "name": "cT8",
+            "output": "cP9",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to load victim’s browser with malicious scripts to perform actions"
+        },
+        {
+            "control_rate": "bP3=6,bP7=5,bP10=2,bP13=7",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP9",
+            "name": "cT9",
+            "output": "cP10,cP4",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker succeeds in loading victim’s browser with scripts to perform actions"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP9",
+            "name": "cT10",
+            "output": "cP1,cP11",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker fails to load victim’s browser with scripts to perform actions"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP14",
+            "input": "cP1",
+            "name": "cT11",
+            "output": "cP12",
+            "player_control": "Attacker",
+            "rate": 6,
+            "description": "Attacker attempts to load victim’s browser with scripts to execute requests to other web sites"
+        },
+        {
+            "control_rate": "bP3=1,bP7=4,bP10=3,bP13=4",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP12",
+            "name": "cT12",
+            "output": "cP4,cP13",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker succeeds in loading victim’s browser with scripts to execute requests to other web sites"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP12",
+            "name": "cT13",
+            "output": "cP14",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker fails to load victim’s browser with scripts to execute requests to other websites"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP17",
+            "input": "cP1",
+            "name": "cT14",
+            "output": "cP15",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to load victim’s browser with scripts to expose invalid info to the user"
+        },
+        {
+            "control_rate": "bP3=5,bP7=2,bP10=4,bP13=6",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP15",
+            "name": "cT15",
+            "output": "cP4,cP16",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker succeeds in loading victim’s browser with scripts to expose invalid info to the user"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP15",
+            "name": "cT16",
+            "output": "cP17,cP1",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to load victim’s browser with scripts to expose invalid info to the user"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP1",
+            "name": "cT17",
+            "output": "cP18",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker fails in the exploit phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP2",
+            "name": "cT18",
+            "output": "cP19,cP2",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detects attempt to develop malicious JavaScript that is loaded by the victim’s browser and sends document information to the attacker occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP6",
+            "name": "cT19",
+            "output": "cP20,cP6",
+            "player_control": "Defender",
+            "rate": 5,
+            "description": "Defender detects attempt to develop malicious JavaScript that takes commands from an attacker’s server and then causes the browser to execute appropriately occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP9",
+            "name": "cT20",
+            "output": "cP21,cP9",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detects attempt to develop malicious JavaScript that is loaded by the victim’s browser and performs actions on the same web site occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP12",
+            "name": "cT21",
+            "output": "cP12,cP22",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detects attempt to develop malicious JavaScript that takes commands from an attacker’s server and then causes the browser to execute request to other web sites occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP15",
+            "name": "cT22",
+            "output": "cP23,cP15",
+            "player_control": "Defender",
+            "rate": 5,
+            "description": "Defender detects attempt to develop malicious JavaScript that is loaded by the victim’s browser and exposes   attacker-modified invalid information to the user on the current web page occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP4",
+            "name": "dT1",
+            "output": "dP1",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker moves to goal phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT2",
+            "output": "dP6,dP2",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to read app data"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP2",
+            "name": "dT3",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker fails to read app data"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP3",
+            "name": "dT4",
+            "output": "dP1",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker tries again"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP3",
+            "name": "dT5",
+            "output": "dP4",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails at goal attempt"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT6",
+            "output": "dP6,dP5",
+            "player_control": "Attacker",
+            "rate": 0,
+            "description": "Attacker attempts to gain privileges"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP6",
+            "name": "dT7",
+            "output": "dP7",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attack moves to Attacker/Defender strategies"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP5",
+            "name": "dT8",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 0,
+            "description": "Attacker fails to gain privileges"
+        },
+        {
+            "control_rate": "cP3=8,cP7=5,cP10=1,cP13=3,cP16=2",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT9",
+            "output": "dP8",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker succeeds in reaching goal"
+        },
+        {
+            "control_rate": "aP13=1,aP14=7,aP15=3,aP16=1,bP16=2,bP17=2,bP18=9,bP19=6,cP20=1,cP21=7,cP22=4,cP23=2",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT10",
+            "output": "dP9,dP7",
+            "player_control": "",
+            "rate": 4,
+            "description": "Defender monitors attack"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP9,dP7",
+            "name": "dT11",
+            "output": "dP10",
+            "player_control": "Defender",
+            "rate": 4,
+            "description": "Defender blocks actively"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT12",
+            "output": "dP10",
+            "player_control": "",
+            "rate": 7,
+            "description": "Defender blocks passively"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP11",
+            "name": "dT13",
+            "output": "dP3",
+            "player_control": "None",
+            "rate": 4,
+            "description": "Attacker fails to modify application data"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP12,dP7",
+            "name": "dT14",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to execute unauthorized code"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT15",
+            "output": "dP12,dP6",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to execute unauthorized code"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT16",
+            "output": "dP11,dP6",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to modify app data"
+        }
+    ]
+}

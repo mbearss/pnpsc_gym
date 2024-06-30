@@ -1,0 +1,8 @@
+gym
+tensorboard
+stable_baselines3
+matplotlib
+numpy
+networkx
+requests
+shimmy>=0.2.1

@@ -1,0 +1,40 @@
+{
+  "end_of_run": false,
+  "places": [
+    {
+      "marking": 0,
+      "name": "aP5",
+      "player_observable": null
+    },
+    {
+      "marking": 9,
+      "name": "aP1",
+      "player_observable": "Attacker"
+    },
+    {
+      "marking": 1,
+      "name": "aP3",
+      "player_observable": null
+    },
+    {
+      "marking": 0,
+      "name": "aP4",
+      "player_observable": null
+    },
+    {
+      "marking": 1,
+      "name": "aP2",
+      "player_observable": null
+    }
+  ],
+  "players": [
+    {
+      "cost": 10.0,
+      "name": "Attacker"
+    },
+    {
+      "cost": 0.0,
+      "name": "Defender"
+    }
+  ]
+}

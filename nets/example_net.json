@@ -1,0 +1,83 @@
+{
+"places" : [
+{
+        "name": "aP1",
+        "marking" : 10,
+        "player_observable" : "Attacker"
+},
+  {
+    "name": "aP2",
+    "marking": 0,
+    "player_observable": null
+  },
+  {
+    "name": "aP3",
+    "marking": 0,
+    "player_observable": null
+  },
+  {
+    "name": "aP4",
+    "marking": 0,
+    "player_observable": null
+  },
+  {
+    "name": "aP5",
+    "marking": 0,
+    "player_observable": null,
+    "goal": "Attacker"
+  }
+],
+  "transitions" : [
+{
+        "name": "aT1",
+        "rate" : 10,
+        "fire_cost" : null,
+        "input" : "aP1",
+        "output" : "aP3",
+        "inhibitor" : "",
+        "player_control" : "Attacker",
+        "control_rate": ""
+
+},
+  {
+        "name": "aT2",
+        "rate" : 5,
+        "fire_cost" : null,
+        "input" : "aP1",
+        "output" : "aP2,aP3",
+        "inhibitor" : "aP5",
+        "player_control" : null,
+        "control_rate": ""
+  },
+    {
+        "name": "aT3",
+        "rate" : 10,
+        "fire_cost" : null,
+        "input" : "aP3",
+        "output" : "aP4",
+        "inhibitor" : "",
+        "player_control" : null,
+        "control_rate": "aP1=55"
+  },
+    {
+        "name": "aT4",
+        "rate" : 2,
+        "fire_cost" : null,
+        "input" : "aP3",
+        "output" : "aP5",
+        "inhibitor" : "",
+        "player_control" : null,
+        "control_rate": ""
+  }
+],
+  "players" : [
+    {
+      "name" : "Attacker",
+      "cost" : 0
+    },
+    {
+      "name" : "Defender",
+      "cost" : 0
+    }
+  ]
+}

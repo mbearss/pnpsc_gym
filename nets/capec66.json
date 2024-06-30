@@ -1,0 +1,1086 @@
+{
+    "places": [
+        {
+            "marking": 1,
+            "name": "aP1",
+            "player_observable": "Attacker,Defender",
+            "description": "SQL queries used by the application to store, retrieve, or modify data"
+        },
+        {
+            "marking": 1,
+            "name": "aP2",
+            "player_observable": "Attacker",
+            "description": "User Controllable Input that is not Properly Validated by the Application as part of SQL Queries"
+        },
+        {
+            "marking": 0,
+            "name": "aP3",
+            "player_observable": "Attacker",
+            "description": "Explore Phase of the Attack Occuring"
+        },
+        {
+            "marking": 0,
+            "name": "aP4",
+            "player_observable": "",
+            "description": "Spidering Occuring"
+        },
+        {
+            "marking": 0,
+            "name": "aP5",
+            "player_observable": "Attacker",
+            "description": "Spidering Successful"
+        },
+        {
+            "marking": 0,
+            "name": "aP6",
+            "player_observable": "",
+            "description": "Spidering Attempt Complete"
+        },
+        {
+            "marking": 0,
+            "name": "aP7",
+            "player_observable": "",
+            "description": "Sniffing Occuring"
+        },
+        {
+            "marking": 0,
+            "name": "aP8",
+            "player_observable": "Attacker",
+            "description": "Sniffing Successful"
+        },
+        {
+            "marking": 0,
+            "name": "aP9",
+            "player_observable": "",
+            "description": "Sniffing Attempt Complete"
+        },
+        {
+            "marking": 0,
+            "name": "aP10",
+            "player_observable": "Defender",
+            "description": "Defender Detected Sniffing"
+        },
+        {
+            "marking": 0,
+            "name": "aP11",
+            "player_observable": "",
+            "description": "Survey Application Complete"
+        },
+        {
+            "marking": 0,
+            "name": "aP12",
+            "player_observable": "Defender",
+            "description": "Defender Detected Spidering"
+        },
+        {
+            "marking": 0,
+            "name": "bP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Experiment phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP2",
+            "player_observable": "",
+            "description": "Use of web browser attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP3",
+            "player_observable": "Attacker",
+            "description": "Use of web browser attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP4",
+            "player_observable": "",
+            "description": "Experiment phase of the attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP5",
+            "player_observable": "",
+            "description": "Use of web browser attack flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP6",
+            "player_observable": "",
+            "description": "Use of web application debugging tool occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP7",
+            "player_observable": "Attacker",
+            "description": "Use of web application debugging tool successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP8",
+            "player_observable": "",
+            "description": "Web application debugging tool flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP9",
+            "player_observable": "",
+            "description": "Use of network-level packet injection tool occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP10",
+            "player_observable": "Attacker",
+            "description": "Use of network-level packet injection tool successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP11",
+            "player_observable": "",
+            "description": "Use of network-level packet injection tool flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP12",
+            "player_observable": "",
+            "description": "Use of modified client attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP13",
+            "player_observable": "Attacker",
+            "description": "Use of modified client successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP14",
+            "player_observable": "",
+            "description": "Use of modified client flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP15",
+            "player_observable": "",
+            "description": "Experiment phase failed",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "bP16",
+            "player_observable": "Defender",
+            "description": "Defender Detected Web Browser Attack"
+        },
+        {
+            "marking": 0,
+            "name": "bP17",
+            "player_observable": "Defender",
+            "description": "Defender Detected Web Application Debugging Tool Use"
+        },
+        {
+            "marking": 0,
+            "name": "bP18",
+            "player_observable": "Defender",
+            "description": "Defender Detected Network Level Packet Injection Tool Use"
+        },
+        {
+            "marking": 0,
+            "name": "bP19",
+            "player_observable": "Defender",
+            "description": "Defender Detected Modified Web Client Use"
+        },
+        {
+            "marking": 0,
+            "name": "cP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Exploit phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP2",
+            "player_observable": "",
+            "description": "Exploit phase aborted",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "cP3",
+            "player_observable": "",
+            "description": "SQL Injection Cheat Sheet attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP4",
+            "player_observable": "Attacker",
+            "description": "SQL Injection Cheat Sheet attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP5",
+            "player_observable": "",
+            "description": "SQL Injection Cheat Sheet attack flag"
+        },
+        {
+            "marking": 0,
+            "name": "cP6",
+            "player_observable": "",
+            "description": "Exploit phase successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP7",
+            "player_observable": "",
+            "description": "Add logic to query attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP8",
+            "player_observable": "Attacker",
+            "description": "Add logic to query attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP9",
+            "player_observable": "",
+            "description": "Add logic to query flag"
+        },
+        {
+            "marking": 0,
+            "name": "cP10",
+            "player_observable": "",
+            "description": "Blind SQL Injection attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP11",
+            "player_observable": "Attacker",
+            "description": "Blind SQL Injection attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP12",
+            "player_observable": "",
+            "description": "Blind SQL Injection attack flag"
+        },
+        {
+            "marking": 0,
+            "name": "cP13",
+            "player_observable": "",
+            "description": "Stacking queries: (DOS) attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP14",
+            "player_observable": "Attacker",
+            "description": "Stacking queries: (DOS) attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP15",
+            "player_observable": "",
+            "description": "Stacking queries: (DOS) attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP16",
+            "player_observable": "Defender",
+            "description": "Defender Detected Use of SQL Injection Cheat Sheet"
+        },
+        {
+            "marking": 0,
+            "name": "cP17",
+            "player_observable": "Defender",
+            "description": "Defender Detected Added Logic to Query"
+        },
+        {
+            "marking": 0,
+            "name": "cP18",
+            "player_observable": "Defender",
+            "description": "Defender Detected Blind SQL Injection Techniques"
+        },
+        {
+            "marking": 0,
+            "name": "cP19",
+            "player_observable": "Defender",
+            "description": "Defender Detected Stacked Queries (Denial of Service Attempt)"
+        },
+        {
+            "marking": 0,
+            "name": "dP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Goal phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP2",
+            "player_observable": "",
+            "description": "Read application data flag"
+        },
+        {
+            "marking": 0,
+            "name": "dP3",
+            "player_observable": "",
+            "description": "Failed attack"
+        },
+        {
+            "marking": 0,
+            "name": "dP4",
+            "player_observable": "",
+            "description": "Goal phase failed",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "dP5",
+            "player_observable": "",
+            "description": "Gain privileges flag"
+        },
+        {
+            "marking": 0,
+            "name": "dP6",
+            "player_observable": "",
+            "description": "Goal decided"
+        },
+        {
+            "marking": 0,
+            "name": "dP7",
+            "player_observable": "",
+            "description": "Attacker/Defender strategies"
+        },
+        {
+            "marking": 0,
+            "name": "dP8",
+            "player_observable": "",
+            "description": "Goal successful",
+            "goal": "Attacker"
+        },
+        {
+            "marking": 0,
+            "name": "dP9",
+            "player_observable": "Defender",
+            "description": "Defense has knowledge of system attack"
+        },
+        {
+            "marking": 0,
+            "name": "dP10",
+            "player_observable": "",
+            "description": "Attacker’s goal blocked",
+            "goal": "Defender"
+        },
+        {
+            "marking": 0,
+            "name": "dP11",
+            "player_observable": "",
+            "description": "Modify application data flag"
+        },
+        {
+            "marking": 0,
+            "name": "dP12",
+            "player_observable": "",
+            "description": "Execute unauthorized code flag"
+        }
+    ],
+    "players": [
+        {
+         "name" : "Attacker",
+          "cost" : 0
+        },
+        {
+          "name" : "Defender",
+          "cost" : 0
+        }
+        ],
+    "transitions": [
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP1,aP2",
+            "name": "aT1",
+            "output": "aP3",
+            "player_control": "Attacker",
+            "rate": 3,
+            "description": "Attacker surveys functionality exposed by the application"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP3",
+            "name": "aT2",
+            "output": "aP4",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to spider website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP4",
+            "name": "aT3",
+            "output": "aP5,aP6",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in spidering"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP4",
+            "name": "aT4",
+            "output": "aP6",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails in spidering"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP6",
+            "name": "aT5",
+            "output": "aP11",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker completes Explore phase via spidering"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP3",
+            "name": "aT6",
+            "output": "aP7",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to sniff network communications"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP7",
+            "name": "aT7",
+            "output": "aP9",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails in sniffing"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP7",
+            "name": "aT8",
+            "output": "aP8,aP9",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in sniffing"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP7",
+            "name": "aT9",
+            "output": "aP7,aP10",
+            "player_control": "Defender",
+            "rate": 4,
+            "description": "Defender Detects Sniffing Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP9",
+            "name": "aT10",
+            "output": "aP11",
+            "player_control": "",
+            "rate": 2,
+            "description": "Attacker completes Explore phase via sniffing"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP4",
+            "name": "aT11",
+            "output": "aP4,aP12",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender Detects Spidering Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP11",
+            "name": "bT1",
+            "output": "bP1",
+            "player_control": "",
+            "rate": 1,
+            "description": "Attacker moves to experiment phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP5",
+            "input": "bP1",
+            "name": "bT2",
+            "output": "bP2",
+            "player_control": "Attacker",
+            "rate": 9,
+            "description": "Use web browser to inject input through text fields"
+        },
+        {
+            "control_rate": "aP5=2,aP8=3",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP2",
+            "name": "bT3",
+            "output": "bP3,bP4",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker succeeds in web browser attack"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP2",
+            "name": "bT4",
+            "output": "bP1,bP5",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to use web browser"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP8",
+            "input": "bP1",
+            "name": "bT5",
+            "output": "bP6",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Use a web application debugging tool"
+        },
+        {
+            "control_rate": "aP5=1,aP8=5",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP6",
+            "name": "bT6",
+            "output": "bP4,bP7",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker succeeds in debugging tool attack"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP6",
+            "name": "bT7",
+            "output": "bP1,bP8",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails in using debugging tool"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP11",
+            "input": "bP1",
+            "name": "bT8",
+            "output": "bP9",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Use network-level packet injection tool"
+        },
+        {
+            "control_rate": "aP5=1,aP8=1",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT9",
+            "output": "bP4,bP10",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in using network-level packet injection tool"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT10",
+            "output": "bP1,bP11",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails in using network-level packet injection tool"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "bP14",
+            "input": "bP1",
+            "name": "bT11",
+            "output": "bP12",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Use modified client"
+        },
+        {
+            "control_rate": "aP5=7,aP8=7",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP12",
+            "name": "bT12",
+            "output": "bP4,bP13",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker succeeds in using modified client"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP12",
+            "name": "bT13",
+            "output": "bP1,bP14",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails in using modified client"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP1",
+            "name": "bT14",
+            "output": "bP15",
+            "player_control": "",
+            "rate": 2,
+            "description": "Attacker gives up in experiment phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP2",
+            "name": "bT15",
+            "output": "bP2,bP16",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender Detects Web Browser Attack Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP6",
+            "name": "bT16",
+            "output": "bP6,bP17",
+            "player_control": "Defender",
+            "rate": 7,
+            "description": "Defender Detects Web Application Debugging Tool Use Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT17",
+            "output": "bP9,bP18",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender Detects Network Level Packet Injection Tool Use Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP12",
+            "name": "bT18",
+            "output": "bP12,bP19",
+            "player_control": "Defender",
+            "rate": 5,
+            "description": "Defender Detects Modified Web Client Use Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP4",
+            "name": "cT1",
+            "output": "cP1",
+            "player_control": "",
+            "rate": 10,
+            "description": "Attacker moves to exploit phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP1",
+            "name": "cT2",
+            "output": "cP2",
+            "player_control": "",
+            "rate": 2,
+            "description": "Attacker unable to exploit"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP5",
+            "input": "cP1",
+            "name": "cT3",
+            "output": "cP3",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker uses SQL Injection Cheat Sheet"
+        },
+        {
+            "control_rate": "bP3=2,bP7=1,bP10=3,bP13=3",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP3",
+            "name": "cT4",
+            "output": "cP4,cP6",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in using SQL Injection Cheat Sheet"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP3",
+            "name": "cT5",
+            "output": "cP1,cP5",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails in using SQL Injection Cheat Sheet"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP9",
+            "input": "cP1",
+            "name": "cT6",
+            "output": "cP7",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker adds logic to query"
+        },
+        {
+            "control_rate": "bP3=1,bP7=1,bP10=2,bP13=5",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP7",
+            "name": "cT7",
+            "output": "cP6,cP8",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in adding logic to query"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP7",
+            "name": "cT8",
+            "output": "cP1,cP9",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails in adding logic to query"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP12",
+            "input": "cP1",
+            "name": "cT9",
+            "output": "cP10",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker uses Blind SQL Injection techniques"
+        },
+        {
+            "control_rate": "bP3=4,bP7=1,bP10=4,bP13=1",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP10",
+            "name": "cT10",
+            "output": "cP6,cP11",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in using Blind SQL Injection techniques"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP10",
+            "name": "cT11",
+            "output": "cP1,cP12",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails in using Blind SQL Injection techniques"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP15",
+            "input": "cP1",
+            "name": "cT12",
+            "output": "cP13",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker tries stacking queries: (DOS)"
+        },
+        {
+            "control_rate": "bP3=7,bP7=2,bP10=6,bP13=1",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP13",
+            "name": "cT13",
+            "output": "cP6,cP14",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in stacking queries: (DOS)"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP13",
+            "name": "cT14",
+            "output": "cP1,cP15",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails in stacking queries: (DOS)"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP3",
+            "name": "cT15",
+            "output": "cP3,cP16",
+            "player_control": "Defender",
+            "rate": 7,
+            "description": "Attacker fails in stacking queries: (DOS)"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP7",
+            "name": "cT16",
+            "output": "cP7,cP17",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender Detects Added Logic to Query Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP10",
+            "name": "cT17",
+            "output": "cP10,cP18",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender Detects Blind SQL Injection Techniques Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP13",
+            "name": "cT18",
+            "output": "cP13,cP19",
+            "player_control": "Defender",
+            "rate": 7,
+            "description": "Defender Detects Stacked Queries (Denial of Service Attempt) Occurring"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP6",
+            "name": "dT1",
+            "output": "dP1",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker moves to goal phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT2",
+            "output": "dP2,dP6",
+            "player_control": "Attacker",
+            "rate": 9,
+            "description": "Attacker attempts to read app"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP2,dP7",
+            "name": "dT3",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker fails to read app data"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP3",
+            "name": "dT4",
+            "output": "dP1",
+            "player_control": "",
+            "rate": 8,
+            "description": "Attacker tries again"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP3",
+            "name": "dT5",
+            "output": "dP4",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker aborts goal attempt"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT6",
+            "output": "dP5,dP6",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to gain privileges"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP6",
+            "name": "dT7",
+            "output": "dP7",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attack moves to Attacker/Defender strategies"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP5,dP7",
+            "name": "dT8",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker fails to gain privileges"
+        },
+        {
+            "control_rate": "cP4=5,cP8=7,cP11=3,cP14=6",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT9",
+            "output": "dP8",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker succeeds in reaching goal"
+        },
+        {
+            "control_rate": "aP10=3,aP12=1,bP16=2,bP17=5,bP18=9,bP19=5,cP16=7,cP17=1,cP18=4,cP19=8",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT10",
+            "output": "dP7,dP9",
+            "player_control": "",
+            "rate": 7,
+            "description": "Defender monitors attack"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP9",
+            "name": "dT11",
+            "output": "dP10",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender blocks actively"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT12",
+            "output": "dP10",
+            "player_control": "",
+            "rate": 7,
+            "description": "Defender blocks passively"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP11",
+            "name": "dT13",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to modify application data"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP12",
+            "name": "dT14",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to execute unauthorized code"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT15",
+            "output": "dP6,dP12",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to execute unauthorized code"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT16",
+            "output": "dP6,dP11",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to modify app"
+        }
+    ]
+}

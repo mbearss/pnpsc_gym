@@ -1,0 +1,1068 @@
+{
+    "places": [
+        {
+            "marking": 0,
+            "name": "bP4",
+            "player_observable": "Attacker",
+            "description": "Obtain domain name successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP5",
+            "player_observable": "None",
+            "description": "Obtain domain name attempt done"
+        },
+        {
+            "marking": 0,
+            "name": "bP6",
+            "player_observable": "Attacker",
+            "description": "Obtain SSL certificate successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP7",
+            "player_observable": "None",
+            "description": "Obtain domain name and SSL certificate attempt done"
+        },
+        {
+            "marking": 0,
+            "name": "bP8",
+            "player_observable": "None",
+            "description": "Duplication of website occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP9",
+            "player_observable": "None",
+            "description": "Spidering occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP10",
+            "player_observable": "Attacker",
+            "description": "Spidering successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP11",
+            "player_observable": "None",
+            "description": "Manually save copies of required web pages occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP12",
+            "player_observable": "Attacker",
+            "description": "Manually saving copies of website successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP13",
+            "player_observable": "None",
+            "description": "Create new web pages occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP14",
+            "player_observable": "Attacker",
+            "description": "Creating new web pages successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP15",
+            "player_observable": "None",
+            "description": "Duplication of website attempt done"
+        },
+        {
+            "marking": 0,
+            "name": "bP16",
+            "player_observable": "None",
+            "description": "Variants of the website occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP17",
+            "player_observable": "Attacker",
+            "description": "Variant of website successful"
+        },
+        {
+            "marking": 0,
+            "name": "bP18",
+            "player_observable": "None",
+            "description": "Variant of the website attempt done"
+        },
+        {
+            "marking": 0,
+            "name": "cP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Exploit phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP2",
+            "player_observable": "Attacker",
+            "description": "Exploit phase attack aborted",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "cP3",
+            "player_observable": "None",
+            "description": "Spoofed email attack occurring"
+        },
+        {
+            "marking": 1,
+            "name": "aP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Attack Prerequisites: None"
+        },
+        {
+            "marking": 0,
+            "name": "cP4",
+            "player_observable": "Attacker",
+            "description": "Spoofed email attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "aP2",
+            "player_observable": "None",
+            "description": "Conduct web searching research of target occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP5",
+            "player_observable": "None",
+            "description": "Spoofed email attack flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP3",
+            "player_observable": "None",
+            "description": "Conduct web searching research of target successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP6",
+            "player_observable": "None",
+            "description": "Exploit phase done"
+        },
+        {
+            "marking": 0,
+            "name": "aP4",
+            "player_observable": "Attacker",
+            "description": "Conduct web searching research of target attack done"
+        },
+        {
+            "marking": 0,
+            "name": "cP7",
+            "player_observable": "None",
+            "description": "Phishing link in online forum attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP5",
+            "player_observable": "None",
+            "description": "Identify trusted associates, colleagues and friends of target occurring"
+        },
+        {
+            "marking": 0,
+            "name": "cP8",
+            "player_observable": "Attacker",
+            "description": "Phishing link in online forum attack successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP9",
+            "player_observable": "None",
+            "description": "Phishing link in online forum attack flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP6",
+            "player_observable": "None",
+            "description": "Identify trusted associates, colleagues and friends of target successful"
+        },
+        {
+            "marking": 0,
+            "name": "cP10",
+            "player_observable": "Defender",
+            "description": "Defender detected spoofed email"
+        },
+        {
+            "marking": 0,
+            "name": "aP7",
+            "player_observable": "Attacker",
+            "description": "Identify trusted associates, colleagues and friends of target done"
+        },
+        {
+            "marking": 0,
+            "name": "cP11",
+            "player_observable": "Defender",
+            "description": "Defender detected phishing link in online forum"
+        },
+        {
+            "marking": 0,
+            "name": "aP8",
+            "player_observable": "None",
+            "description": "Utilize social engineering attack patterns such as Pretexting occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Goal phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "aP9",
+            "player_observable": "None",
+            "description": "Utilize social engineering attack patterns such as Pretexting successful"
+        },
+        {
+            "marking": 0,
+            "name": "dP2",
+            "player_observable": "None",
+            "description": "Read application data flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP10",
+            "player_observable": "Attacker",
+            "description": "Utilize social engineering attack patterns such as Pretexting done"
+        },
+        {
+            "marking": 0,
+            "name": "dP3",
+            "player_observable": "None",
+            "description": "Failed attack"
+        },
+        {
+            "marking": 0,
+            "name": "aP11",
+            "player_observable": "None",
+            "description": "Dumpster diving occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP4",
+            "player_observable": "None",
+            "description": "Goal phase failed",
+            "goal": "Blocked"
+        },
+        {
+            "marking": 0,
+            "name": "aP12",
+            "player_observable": "None",
+            "description": "Dumpster diving successful"
+        },
+        {
+            "marking": 0,
+            "name": "dP5",
+            "player_observable": "None",
+            "description": "Gain privileges flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP13",
+            "player_observable": "Attacker",
+            "description": "Dumpster diving attack done"
+        },
+        {
+            "marking": 0,
+            "name": "dP6",
+            "player_observable": "None",
+            "description": "Goal decided"
+        },
+        {
+            "marking": 0,
+            "name": "aP14",
+            "player_observable": "None",
+            "description": "Collect social information via traditional sources occurring"
+        },
+        {
+            "marking": 0,
+            "name": "dP7",
+            "player_observable": "None",
+            "description": "Attacker/Defender strategies"
+        },
+        {
+            "marking": 0,
+            "name": "aP15",
+            "player_observable": "None",
+            "description": "Collect social information via traditional sources successful"
+        },
+        {
+            "marking": 0,
+            "name": "dP8",
+            "player_observable": "None",
+            "description": "Goal successful",
+            "goal": "Attacker"
+        },
+        {
+            "marking": 0,
+            "name": "aP16",
+            "player_observable": "Attacker",
+            "description": "Collect social information via traditional sources done"
+        },
+        {
+            "marking": 0,
+            "name": "dP9",
+            "player_observable": "Defender",
+            "description": "Defense has knowledge of system attack"
+        },
+        {
+            "marking": 0,
+            "name": "aP17",
+            "player_observable": "None",
+            "description": "Collect social information via Non-traditional sources occurring\n"
+        },
+        {
+            "marking": 0,
+            "name": "aP18",
+            "player_observable": "None",
+            "description": "Collect social information via Non-traditional sources successful"
+        },
+        {
+            "marking": 0,
+            "name": "dP10",
+            "player_observable": "None",
+            "description": "Attacker’s goal blocked",
+            "goal": "Defender"
+        },
+        {
+            "marking": 0,
+            "name": "aP19",
+            "player_observable": "Attacker",
+            "description": "Collect social information via Non-traditional sources done"
+        },
+        {
+            "marking": 0,
+            "name": "dP11",
+            "player_observable": "None",
+            "description": "Modify application data flag"
+        },
+        {
+            "marking": 0,
+            "name": "aP20",
+            "player_observable": "None",
+            "description": "Explore phase done"
+        },
+        {
+            "marking": 0,
+            "name": "dP12",
+            "player_observable": "None",
+            "description": "Execute unauthorized code flag"
+        },
+        {
+            "marking": 0,
+            "name": "bP1",
+            "player_observable": "Attacker,Defender",
+            "description": "Experiment phase of the attack occurring"
+        },
+        {
+            "marking": 0,
+            "name": "bP2",
+            "player_observable": "None",
+            "description": "Experiment phase done"
+        },
+        {
+            "marking": 0,
+            "name": "bP3",
+            "player_observable": "None",
+            "description": "Obtain domain name and certificate to spoof legitimate site occurring"
+        }
+    ],
+    "players": [
+        {
+         "name" : "Attacker",
+          "cost" : 0
+        },
+        {
+          "name" : "Defender",
+          "cost" : 0
+        }
+    ],
+    "transitions": [
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP1",
+            "name": "aT1",
+            "output": "aP17,aP2,aP14,aP11,aP8,aP5",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to obtain useful contextual detailed information about the targeted user or organization"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP2",
+            "name": "aT2",
+            "output": "aP3",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker unable to conduct web searching research of target"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP2",
+            "name": "aT3",
+            "output": "aP4,aP3",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker able to conduct web searching research of target"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP5",
+            "name": "aT4",
+            "output": "aP6",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker unable to identify trusted associates, colleagues and friends of target"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP5",
+            "name": "aT5",
+            "output": "aP6,aP7",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker able to identify trusted associates, colleagues and friends of target"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP8",
+            "name": "aT6",
+            "output": "aP9",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker unable to utilize social engineering attack patterns such as Pretexting"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP8",
+            "name": "aT7",
+            "output": "aP10,aP9",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker able to utilize social engineering attack patterns such as Pretexting"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP11",
+            "name": "aT8",
+            "output": "aP12",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to collect social information via dumpster diving"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP11",
+            "name": "aT9",
+            "output": "aP12,aP13",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker able to collect social information via dumpster diving"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP14",
+            "name": "aT10",
+            "output": "aP15",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to collect social information via traditional sources"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP14",
+            "name": "aT11",
+            "output": "aP15,aP16",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker able to collect social information via traditional sources"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP17",
+            "name": "aT12",
+            "output": "aP18",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to collect social information via Non-traditional sources"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP17",
+            "name": "aT13",
+            "output": "aP18,aP19",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker able to collect social information via Non-traditional sources"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP6,aP3,aP18,aP15,aP12,aP9",
+            "name": "aT14",
+            "output": "aP20",
+            "player_control": "",
+            "rate": 10,
+            "description": "Attacker moves to the experiment phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "aP20",
+            "name": "bT1",
+            "output": "bP1",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker moves to experiment phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP1",
+            "name": "bT2",
+            "output": "bP2",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker forego experiment options"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP1",
+            "name": "bT3",
+            "output": "bP16,bP3,bP8",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to spoof site"
+        },
+        {
+            "control_rate": "aP4=2,aP7=4,aP10=8,aP13=3,aP16=1,aP19=3",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP3",
+            "name": "bT4",
+            "output": "bP4,bP5",
+            "player_control": "",
+            "rate": 8,
+            "description": "Attacker able to obtain domain"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP3",
+            "name": "bT5",
+            "output": "bP5",
+            "player_control": "",
+            "rate": 5,
+            "description": "Attacker unable to obtain domain"
+        },
+        {
+            "control_rate": "aP4=1,aP7=1,aP10=7,aP13=4,aP16=2,aP19=6",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP5",
+            "name": "bT6",
+            "output": "bP7,bP6",
+            "player_control": "",
+            "rate": 8,
+            "description": "Attacker able to obtain SSL certificate"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP5",
+            "name": "bT7",
+            "output": "bP7",
+            "player_control": "",
+            "rate": 2,
+            "description": "Attacker unable to obtain SSL certificate"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP7,bP15,bP18",
+            "name": "bT8",
+            "output": "bP2",
+            "player_control": "",
+            "rate": 1,
+            "description": "Attacker moves to the exploit phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP3",
+            "name": "bT9",
+            "output": "bP7",
+            "player_control": "Attacker",
+            "rate": 2,
+            "description": "Attacker foregoes obtaining domain name and SSL certificate"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP8",
+            "name": "bT10",
+            "output": "bP9",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attack attempts to spider website"
+        },
+        {
+            "control_rate": "aP4=2,aP7=4,aP10=4,aP13=3,aP16=5,aP19=8",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT11",
+            "output": "bP10,bP15",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker able to spider"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP9",
+            "name": "bT12",
+            "output": "bP15",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to spider"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP8",
+            "name": "bT13",
+            "output": "bP11",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to manually save copies of website"
+        },
+        {
+            "control_rate": "aP4=4,aP7=2,aP10=7,aP13=3,aP16=4,aP19=1",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP11",
+            "name": "bT14",
+            "output": "bP15,bP12",
+            "player_control": "",
+            "rate": 8,
+            "description": "Attacker able to save copies of web pages"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP11",
+            "name": "bT15",
+            "output": "bP15",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to save copies of web pages"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP8",
+            "name": "bT16",
+            "output": "bP13",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to create new web pages"
+        },
+        {
+            "control_rate": "aP4=1,aP7=7,aP10=4,aP13=2,aP16=6,aP19=9",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP13",
+            "name": "bT17",
+            "output": "bP14,bP15",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker able to create new web pages"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP13",
+            "name": "bT18",
+            "output": "bP15",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to create new web pages"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP8",
+            "name": "bT19",
+            "output": "bP15",
+            "player_control": "Attacker",
+            "rate": 6,
+            "description": "Attacker foregoes duplication of website"
+        },
+        {
+            "control_rate": "aP4=1,aP7=2,aP10=4,aP13=5,aP16=7,aP19=1",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP16",
+            "name": "bT20",
+            "output": "bP17,bP18",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker able to create variant of website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP16",
+            "name": "bT21",
+            "output": "bP18",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to create variant of website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP16",
+            "name": "bT22",
+            "output": "bP18",
+            "player_control": "",
+            "rate": 10,
+            "description": "Attacker foregoes creating variant of website"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "bP2",
+            "name": "cT1",
+            "output": "cP1",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker moves to exploit phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP1",
+            "name": "cT2",
+            "output": "cP2",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker gives up in the exploit phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP5",
+            "input": "cP1",
+            "name": "cT3",
+            "output": "cP3",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to spoof site"
+        },
+        {
+            "control_rate": "bP4=1,bP6=3,bP10=7,bP12=5,bP14=2,bP17=3",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP3",
+            "name": "cT4",
+            "output": "cP4,cP6",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker able to spoof site"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP3",
+            "name": "cT5",
+            "output": "cP5,cP1",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker unable to spoof site"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "cP9",
+            "input": "cP1",
+            "name": "cT6",
+            "output": "cP7",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to attack via phishing link"
+        },
+        {
+            "control_rate": "bP4=1,bP6=2,bP10=6,bP12=2,bP14=7,bP17=6",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP7",
+            "name": "cT7",
+            "output": "cP8,cP6",
+            "player_control": "",
+            "rate": 6,
+            "description": "Attacker able to attack via phishing link"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP7",
+            "name": "cT8",
+            "output": "cP1,cP9",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker unable to attack via phishing link"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP3",
+            "name": "cT9",
+            "output": "cP3,cP10",
+            "player_control": "Defender",
+            "rate": 5,
+            "description": "Defender detects spoofed email"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP7",
+            "name": "cT10",
+            "output": "cP7,cP11",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender detects phishing link in online forum"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "cP6",
+            "name": "dT1",
+            "output": "dP1",
+            "player_control": "",
+            "rate": 8,
+            "description": "Attacker moves to goal phase"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT2",
+            "output": "dP2,dP6",
+            "player_control": "Attacker",
+            "rate": 8,
+            "description": "Attacker attempts to read app"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP2",
+            "name": "dT3",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 2,
+            "description": "Attacker fails to read app data"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP3",
+            "name": "dT4",
+            "output": "dP1",
+            "player_control": "",
+            "rate": 2,
+            "description": "Attacker tries again"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP3",
+            "name": "dT5",
+            "output": "dP4",
+            "player_control": "",
+            "rate": 3,
+            "description": "Attacker aborts goal attempt"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT6",
+            "output": "dP6,dP5",
+            "player_control": "Attacker",
+            "rate": 9,
+            "description": "Attacker attempts to gain privileges"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP6",
+            "name": "dT7",
+            "output": "dP7",
+            "player_control": "",
+            "rate": 2,
+            "description": "Attack moves to Attacker/Defender strategies"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7,dP5",
+            "name": "dT8",
+            "output": "dP3",
+            "player_control": "Attacker",
+            "rate": 2,
+            "description": "Attacker fails to gain privileges"
+        },
+        {
+            "control_rate": "cP4=7,cP9=7",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT9",
+            "output": "dP8",
+            "player_control": "",
+            "rate": 7,
+            "description": "Attacker succeeds in reaching goal"
+        },
+        {
+            "control_rate": "cP10=8,cP11=8",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT10",
+            "output": "dP7,dP9",
+            "player_control": "",
+            "rate": 6,
+            "description": "Defender monitors attack"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP9,dP7",
+            "name": "dT11",
+            "output": "dP10",
+            "player_control": "Defender",
+            "rate": 6,
+            "description": "Defender blocks actively"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP7",
+            "name": "dT12",
+            "output": "dP10",
+            "player_control": "",
+            "rate": 8,
+            "description": "Defender blocks passively"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP11,dP7",
+            "name": "dT13",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 4,
+            "description": "Attacker fails to modify application data"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP12,dP7",
+            "name": "dT14",
+            "output": "dP3",
+            "player_control": "",
+            "rate": 0,
+            "description": "Attacker fails to execute unauthorized code"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT15",
+            "output": "dP6,dP12",
+            "player_control": "Attacker",
+            "rate": 0,
+            "description": "Attacker attempts to execute unauthorized code"
+        },
+        {
+            "control_rate": "",
+            "fire_cost": 10,
+            "inhibitor": "",
+            "input": "dP1",
+            "name": "dT16",
+            "output": "dP11,dP6",
+            "player_control": "Attacker",
+            "rate": 7,
+            "description": "Attacker attempts to modify app"
+        }
+    ]
+}
